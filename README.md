@@ -72,7 +72,6 @@ O tailwind.css já está configurado, então você precisará apenas o instalar 
 #### Execute a aplicação
 ````
 $ npm run dev
-
 ````
 Obs: O projeto rodará na porta 5173. Para acessar em seu navegador, utilize o link: 
 **https://localhost:5173**
@@ -88,7 +87,6 @@ Com isso, entre na pasta do backend e faça o comando a seguir:
 
 ````
 $ npm run dev
-
 ````
 
 O back-end roda na porta 3003, você terá que alterar a BASE_URL da api do frontend para http://localhost:3003 pelo seguinte caminho:
