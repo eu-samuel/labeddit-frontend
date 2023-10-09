@@ -6,11 +6,9 @@
 
 • Descrição
 <br>
-• Enunciado
+• Layout
 <br>
 • Funcionalidades
-<br>
-• Layout
 <br>
 • Demonstração
 <br>
@@ -20,10 +18,33 @@
 <br>
 • Linguagens utilizadas
 <br>
-• Pessoas autoras
 
 ## Descrição
 O projeto Labeddit é parte da última etapa do curso de Desenvolvimento Web Full Stack da escola de programação "Labenu". Trata-se de um pequeno clone da rede social "Reddit" que leva o desenvolvedor a colocar em prática seus conhecimentos em ambas as stacks. Os usuários da Labeddit podem criar suas contas e interagir entre si no fórum único da aplicação através de tópicos e comentários dentro dos mesmos. Caso desejem, os usuários podem alterar seus dados ou deletar a conta (o que, claro, não queremos que vocês façam 😭).
+
+## Layout
+Em conjunto com o tailwind.css, o Labeddit foi criado visando o modelo mobile-first, com a responsividade sendo voltada para adaptar o projeto para desktops e tablets. Alguns componentes foram customizados através de Charka UI porém. 
+
+#### Tela de cadastro
+<img src="https://i.ibb.co/d7yF6fL/image.png" alt="Tela de cadastro"/>
+
+#### Tela de login
+<img src="https://i.ibb.co/Bnmj1hS/image.png" alt="Tela de login"/>
+
+#### Fórum 
+<img src="https://i.ibb.co/T8N8NTH/image.png" alt="Fórum"/>
+
+#### Página da postagem com comentários
+
+<img src="https://i.ibb.co/7kF7dF1/image.png" alt="Postagem"/>
+
+#### Página para alteração de dados do usuário
+
+<img src="https://i.ibb.co/8271Mt0/image.png" alt="Página de alterar dados"/>
+
+#### Página para o usuário deletar a conta (favor, não querer usá-la 😭)
+
+<img src="https://i.ibb.co/7NKsYVs/image.png" alt="Página para deletar a conta"/>
 
 
 ## Como rodar este projeto
@@ -38,32 +59,51 @@ $ git clone https://github.com/seuUsuario/labeddit-frontend.git
 $ cd labeddit-frontend
 
 #### Instale as dependências utilizadas no mesmo
+````
 $ npm install
-<br>
 $ npm i react-icons
-<br>
 $ npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
-<br>
 $ npm install -D tailwindcss
-<br>
 $ npm i postcss autoprefixer
-<br>
+````
 
-O tailwind.css já está configurado, então você apenas precisa instalar no node.js.
+O tailwind.css já está configurado, então você precisará apenas o instalar via terminal.
 
 #### Execute a aplicação
+````
 $ npm run dev
 
-Obs: O projeto foi criado em vite, logo ele rodará na porta 5173. Para acessar em seu navegador, utilize o link: 
+````
+Obs: O projeto rodará na porta 5173. Para acessar em seu navegador, utilize o link: 
 **https://localhost:5173**
 
-## Linguagens utilizadas 
 
-Este repositório é relativo ao front-end da aplicação, para conferir o repositório da API, acesse clicando na badge a seguir:
+#### Rodando localmente
 
-### Link para acesso ao repositório do backend
+Caso deseje rodar todas as funcionalidades localmente, terá que utilizar o repositório do back-end. Este repositório é relativo ao front-end da aplicação, para conferir o repositório da API, acesse clicando na badge a seguir:
 
 <a href="http://github.com/eu-samuel/labeddit-backend"><img alt="Static Badge" src="https://img.shields.io/badge/BACKEND-backend?color=blue"></a>
+
+Com isso, entre na pasta do backend e faça o comando a seguir:
+
+````
+$ npm run dev
+
+````
+
+O back-end roda na porta 3003, você terá que alterar a BASE_URL da api do frontend para http://localhost:3003 pelo seguinte caminho:
+
+````
+src/assets/scripts/Functions.js
+````
+
+<img src="https://i.ibb.co/CMwD391/image.png" alt="Caminho para alterar a BASE_URL"/>
+
+e procurar pela variável BASE_URL ao fim do código.
+
+<img src="https://i.ibb.co/0JwZ1X7/image.png" alt="constante BASE_URL"/>
+
+## Linguagens utilizadas 
 
 ### Editor de código utilizado
 
