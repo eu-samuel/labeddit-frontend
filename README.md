@@ -73,7 +73,7 @@ Obs: O projeto rodará na porta 5173. Para acessar em seu navegador, utilize o l
 
 #### Rodando localmente
 
-Caso deseje rodar todas as funcionalidades localmente, terá que utilizar o repositório do back-end. Este repositório é relativo ao front-end da aplicação, para conferir o repositório da API, acesse clicando na badge a seguir:
+Caso deseje rodar todas as funcionalidades localmente, devido a instabilidade do servidor, você terá que utilizar o repositório do back-end. Este repositório é relativo ao front-end da aplicação, para conferir o repositório da API, acesse clicando na badge a seguir:
 
 <a href="http://github.com/eu-samuel/labeddit-backend"><img alt="Static Badge" src="https://img.shields.io/badge/BACKEND-backend?color=blue"></a>
 
