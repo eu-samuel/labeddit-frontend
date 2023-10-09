@@ -8,12 +8,6 @@
 <br>
 • Layout
 <br>
-• Funcionalidades
-<br>
-• Demonstração
-<br>
-• Concepção do projeto
-<br>
 • Como rodar este projeto
 <br>
 • Linguagens utilizadas
