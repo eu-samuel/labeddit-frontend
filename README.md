@@ -79,7 +79,7 @@ Caso deseje rodar todas as funcionalidades localmente, devido a instabilidade do
 
 <a href="http://github.com/eu-samuel/labeddit-backend"><img alt="Static Badge" src="https://img.shields.io/badge/BACKEND-backend?color=blue"></a>
 
-Após seguir os passos de instalação de dependências do backend, entre na pasta do backend e faça o comando a seguir:
+Com isso, entre em ambas as pastas front-end e back-end em dois terminais separados e faça o comando de execução em ambas:
 
 ````
 $ npm run dev
