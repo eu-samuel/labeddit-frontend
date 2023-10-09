@@ -32,6 +32,8 @@ Em conjunto com o tailwind.css, o Labeddit foi criado visando o modelo mobile-fi
 
 <img src="https://i.ibb.co/7kF7dF1/image.png" alt="Postagem"/>
 
+(Não é possível editar comentários)
+
 #### Página para alteração de dados do usuário
 
 <img src="https://i.ibb.co/8271Mt0/image.png" alt="Página de alterar dados"/>
